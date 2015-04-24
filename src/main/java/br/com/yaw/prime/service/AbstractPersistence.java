@@ -14,6 +14,7 @@ import br.com.yaw.prime.model.AbstractEntity;
  * 
  * @author YaW Tecnologia
  */
+@SuppressWarnings("all")
 public abstract class AbstractPersistence<T extends AbstractEntity, PK extends Number> {
 
 	/**

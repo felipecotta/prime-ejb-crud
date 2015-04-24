@@ -9,8 +9,6 @@ import java.util.ResourceBundle;
 import javax.ejb.EJB;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
-import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ViewScoped;
 
 import br.com.yaw.prime.model.Mercadoria;
@@ -28,6 +26,8 @@ import br.com.yaw.prime.service.MercadoriaService;
 @ManagedBean(name="mercadoriaMB")
 @ViewScoped
 public class MercadoriaMB implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 
 	/**
 	 * Container injeta a referencia p/ o ejb MercadoriaService
